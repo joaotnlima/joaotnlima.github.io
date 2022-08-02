@@ -6,7 +6,7 @@ enableEmoji = true
 theme = "almeida-cv"
 disableKinds = ["page", "section", "taxonomy", "term", "RSS", "sitemap"]
 
-baseURL = "https://joaotnlima.github.io/"
+baseURL = "joaotnlima.github.io/"
 title = "João Costa - CV"
 #googleAnalytics = ""
 
