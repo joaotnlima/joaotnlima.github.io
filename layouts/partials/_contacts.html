@@ -1,0 +1,15 @@
+{{ if .BasicInfo.Contacts }}
+<div class="sideSection contact">
+    <ul>
+        {{ range .BasicInfo.Contacts }}
+        <li class="contact__item">
+            {{ if .Info }}
+                <i class="{{ .Icon }}"></i><span>{{ .Info | safeHTML }}</span>
+            {{ else }}
+                <i class="{{ .Icon }}"></i><a target="_blank" href="{{ .Href | safeURL }}">{{ .Label | safeHTML }}</a>
+            {{ end }}
+        </li>
+        {{ end }}
+    </ul>
+</div>
+{{ end }}
