@@ -5,17 +5,17 @@ BasicInfo:
   Contacts:
     - Icon: fas fa-phone
       Label: +351 935 566 326
-      Href: "tel:+935566326"
+      Href: tel:+935566326
     - Icon: fas fa-envelope
       Href: "mailto:joaotnlima@gmail.com"
       Label: joaotnlima@gmail.com
     - Icon: fas fa-globe
-      Href: "https://joaotnlima.io"
+      Href: https://joaotnlima.io
       Label: joaotnlima.io
     - Icon: fas fa-map-marker-alt
       Info: Porto, Portugal
     - Icon: fab fa-linkedin
-      Href: "https://www.linkedin.com/in/joaotnlima/"
+      Href: https://www.linkedin.com/in/joaotnlima/
       Label: joaotnlima
 
 Profile: '· More than 8 years of work experience in eCommerce platforms. <br>
