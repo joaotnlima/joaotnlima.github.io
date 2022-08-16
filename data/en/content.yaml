@@ -17,9 +17,7 @@ BasicInfo:
     - Icon: fas fa-file-pdf
       Href: /img/curriculum-vitae.pdf
       Label: Download My Cv
-    - Icon: fas fa-language
-      Href: /pt/
-      Label: Ver em Português
+      
 Profile: '· More than 8 years of work experience in eCommerce platforms. <br>
 · Interested in defining products and finding what adds value to customers.<br>
 · A techie person with strong IT background.<br>

@@ -7,7 +7,7 @@ theme = "almeida-cv"
 disableKinds = ["page", "section", "taxonomy", "term", "RSS", "sitemap"]
 
 baseURL = "joaotnlima.github.io/"
-title = "João Costa - CV"
+title = "João Costa | Curriculum Vitae"
 #googleAnalytics = ""
 
 [params]
@@ -29,11 +29,6 @@ pages = 1
 
 [languages]
     [languages.en]
-        title = 'João Costa | Curriculum Vitae'
         contentDir = 'data/en'
         weight = 1
-    [languages.pt]
-        title = 'João Costa | Curriculum Vitae'
-        contentDir = 'data/pt'
-        weight = 3
         
