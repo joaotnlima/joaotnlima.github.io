@@ -25,3 +25,15 @@ colorRightColumnBodyText = "#FFF"
 colorRightColumnIconPrimary = "#fff"
 colorRightColumnIconBackground = "#ff9a00"
 pages = 1
+
+
+[languages]
+    [languages.en]
+        title = 'João Costa | Curriculum Vitae'
+        contentDir = 'data/en'
+        weight = 1
+    [languages.pt]
+        title = 'João Costa | Curriculum Vitae'
+        contentDir = 'data/pt'
+        weight = 3
+        

@@ -1,35 +1,43 @@
 .content {
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
     position: absolute;
-    overflow: hidden;
-
+    overflow: visible;
     &__left {
         float: left;
-        width: $width-left-col;
+        width: $width-right-col;
         height: 100%;
-        padding: 3rem 4rem;
-
-        @media screen {
-            &::after {
-                content: '2022 © by João Costa | joaotnlima.github.io';
-                height: 4rem;
-                width: 100%;
-                position: absolute;
-                bottom: 0.5rem;
-                color: darken($color-light, 10%);
-            }
+        padding: 3rem 4rem 338rem;
+        background-color: $color-right-col-background;
+        color: $color-right-col-body-text;
+        h2{
+            color: white;
         }
     }
 
     &__right {
         position: absolute;
         float: right;
-        width: $width-right-col;
-        background-color: $color-right-col-background;
-        color: $color-right-col-body-text;
-        height: 100%;
+        width: $width-left-col;
+        
+        background-color: white;
         padding: 2rem 3rem;
         right: 0rem;
 
         @include shadow(0.5);
+        @media screen {
+            &::after {
+                content: '2022 © João Costa | joaotnlima.github.io';
+                height: 4rem;
+                width: 100%;
+                position: absolute;
+                bottom: -1rem;
+                color: darken($color-light, 30%);
+                left:55%;
+            }
+        }
+        .education__item{
+            padding-top:20px;
+        }
     }
 }

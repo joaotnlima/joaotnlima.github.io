@@ -9,15 +9,17 @@ BasicInfo:
     - Icon: fas fa-envelope
       Href: "mailto:joaotnlima@gmail.com"
       Label: joaotnlima@gmail.com
-    - Icon: fas fa-globe
-      Href: https://joaotnlima.io
-      Label: joaotnlima.io
     - Icon: fas fa-map-marker-alt
       Info: Porto, Portugal
     - Icon: fab fa-linkedin
       Href: https://www.linkedin.com/in/joaotnlima/
       Label: joaotnlima
-
+    - Icon: fas fa-file-pdf
+      Href: /img/curriculum-vitae.pdf
+      Label: Download My Cv
+    - Icon: fas fa-language
+      Href: /pt/
+      Label: Ver em Português
 Profile: '· More than 8 years of work experience in eCommerce platforms. <br>
 · Interested in defining products and finding what adds value to customers.<br>
 · A techie person with strong IT background.<br>
@@ -45,7 +47,7 @@ Experience:
           - Defined scope for a wallet functionality – 4% increase in repurchase rate.
           - Evangelized a Headless CMS integration to increase productivity and flexibility reducing time to market of platform’s content by 60% and increasing customization in the platform content.
           - Defined ways of working in Product team to manage initiatives, priorities and communication to various stakeholders.
-        Badges: ['Product', 'Scrum', 'Coach', 'Agile','eCommerce', 'Marketplace']
+        Badges: ['Marketplace', 'eCommerce', 'Product', 'Scrum', 'Agile']
   - Employer: Critical Software
     Place: Coimbra, PT
     Positions:
@@ -78,7 +80,7 @@ Experience:
         Details:
           - Responsible for delivering high value by carrying out projects from initiation to closure.
           - Taking ownership and ensuring that project and stakeholders are aligned, and all company compliance and processes are followed with energy and passion.
-        Badges: ['Retail', 'eCommerce', 'PMP']
+        Badges: ['Retail', 'Project Management']
   - Employer: Toogas - Magento Ecommerce Experts
     Place: Gaia, Portugal
     Positions:
@@ -90,7 +92,7 @@ Experience:
           - Introduced Test-Driven-Development and Product Reviews with clients
           - Project Management – Product Vision definition, Sprint planning, and solution Documentation.
           - Project Roadmap definition and alignment.
-        Badges: ['Magento', 'eCommerce', 'Agile', 'Scrum', 'Digitalization']
+        Badges: ['Magento', 'eCommerce', 'Agile', 'Scrum']
   - Employer: Jumia Porto Tech Center
     Place: Porto, Portugal
     Positions:
@@ -106,7 +108,7 @@ Experience:
           - Manage a team of web & mobile developers, attending to scrum meetings 
           - Ensure the monitoring and control of the product development.
           - Serve as a enabler for a more agile environment within the team&company.
-        Badges: ['Magento', 'eCommerce', 'Agile', 'Scrum', 'Digitalization']
+        Badges: ['eCommerce', 'Agile', 'Scrum', 'Logistics']
       - Title: Advanced Business Intelligence Developer
         Date: Oct 2014 - Dec 2015
         Details:
@@ -115,7 +117,7 @@ Experience:
           - Organize and optimize teamwork process with the various tools available - Git, etc.
           - Build tools to help profiling and query optimization.
           - Project Roadmap definition and alignment.
-        Badges: ['Magento', 'eCommerce', 'Agile', 'Scrum', 'Digitalization']
+        Badges: ['Travel', 'Symfony', 'SSIS', 'SSDT', 'ETL', 'Java', 'eCommerce', 'Agile', 'Scrum','Github']
       - Title: Advanced PHP Developer
         Date: May 2013 - Sep 2014
         Details:
@@ -133,7 +135,7 @@ Experience:
           - Bootstrap 3
           - Jquery
           - Elasticsearch
-        Badges: ['eCommerce', 'Travel', 'Accomodation', 'Agile', 'Scrum']
+        Badges: ['eCommerce', 'Travel', 'Accomodation', 'Agile', 'Scrum', 'Symfony', 'Doctrine', 'MySql', 'Redis', 'Vagrant','Github', 'Jenkins']
       - Title: Advanced PHP Web Developer @Lazada Vietnam
         Date: Feb 2013 - May 2013
         Details:
@@ -152,16 +154,66 @@ Experience:
           - Nginx
           - Jquery
           - Css
-        Badges: ['Magento', 'eCommerce', 'Agile', 'Scrum', 'Digitalization']
-  
+        Badges: ['eCommerce', 'Agile', 'Scrum', 'Zend Framework', 'Yii', 'MemCache', 'Mysql','Github']
+      - Title: PHP Web Developer
+        Date: Mar 2012 - Feb 2013
+        Details:
+          - "Rocket Internet, the world's largest Internet incubator, has been building online companies since 1999 and has created over 100 market leading companies in 50+ countries, dozens of which have been exited successfully.
+            Rocket Internet operate a network of 25 international Rocket offices, covering all relevant developed and emerging markets. The primary focus is on building proven, transaction-based business models in the online and mobile space such as the e-commerce retail companies Zalando in Germany, Jabong.com in India, Lamoda.ru in Russia, The Iconic and Zanui in Australia and Azmalo.pk and Daraz.pk in Pakistan."
+        Badges: ['eCommerce', 'Agile', 'Scrum', 'Zend Framework', 'Yii', 'MemCache', 'Mysql','Github']
+  - Employer: Glandrive
+    Place: Porto, Portugal
+    Positions:
+    - Title: PHP Web Developer
+      Date: Sep 2009 - Apr 2012
+      Details:
+        - Develop websites Design&Features.
+        - Client and Project Managment.
+        - Applications Developement (Using Visual Studio 2010).
+        - Maintainance of Website Projects.
+        - Facebook Management (4 companies).
+      Badges: ['Web Development', 'Agile']
 
 Education:
-  - Course: BSc & MSc in Biomedical Engineering and Biophysics
-    Place: University of Lisbon
-    Date: Sep 2012 - Nov 2017
-    Details: Specialised in data analysis
+  - Course: Executive Programme, Leadership & Negotiation
+    Place: Porto Business School
+    Date: Sep 2021 - Nov 2021
+  - Course: Prince 2 Practitioner 
+    Place: Rumos
+    Date: May 2017
+  - Course: Lean Management
+    Place: Anje
+    Date: Nov 2016 - Mar 2017
+  - Course: Postgraduate in Project Management
+    Place: Porto Business School
+    Date: Jan 2015 - Feb 2016
+    Details: 
+      "- Agile Methodologies in Projects <br/>
+      - Risk Management<br/>
+      - Negotiation <br/>
+      - Operations Management <br/>
+      - Marketing<br/>
+      - Leadership <br/>
+      - Analysis, Selection of Investments and Project Finance<br/>
+      - Strategy<br/>
+      - Portfolios and Programs<br/>
+      - Organization and Integrated Management<br/>
+      - Planning, Execution and Control<br/>
+      - Change Management"
+  - Course: Certified Scrum Product Owner
+    Place: Rumos
+    Date: Sep 2014
+  - Course: Team Leadership and Coaching techniques
+    Place: Anje
+    Date: May 2014 - Jul 2014
+  - Course: Certified Scrum Master
+    Place: Rumos
+    Date: May 2014
+  - Course: Search Engine Marketing Professional
+    Place: Flag
+    Date: Jan 2014 - Apr 2014
 
-References:
+#References:
   - Name: Person One
     Relation: Co-worker at Super Cool Company
     Contacts:
@@ -185,31 +237,28 @@ References:
 Skills:
   - Family: Programming
     Items:
-      - Python
-      - HTML (including Jinja)
+      - PHP
+      - HTML
       - Javascript
       - CSS
       - SASS
       - SQL
-      - C#
-      - Bash
-      - MATLAB
+      - 
   - Family: Frameworks
     Items:
-      - Django
-      - Flask
-      - Hugo
-      - React
+      - Zend
+      - Yii
+      - Symfony
+      - Spring
   - Family: Developer Tools
     Items:
       - Git
       - Docker
       - Jenkins
-      - AWS
   - Family: Misc
     Items:
-      - Adobe Tools
-      - LaTeX
+      - Jira, Confluence, Service Desk
+      - ClickUp
 
 Languages:
   - Name: Portuguese
@@ -218,17 +267,13 @@ Languages:
     Level: C2
   - Name: Spanish
     Level: B1
-  - Name: German
+  - Name: French
     Level: B1
 
-Diplomas:
-  - ISTQB Tester Certification (2019)
-  - English Cambridge CAE (2009)
-
 Interests:
-  - Bouldering
-  - Cooking
-  - Windsurfing
-  - Bossa Nova
-  - Design
-  - Languages
+  - Crypto
+  - Crossfit
+  - Surf
+  - Holochain
+  - Teamtable
+  - Movies & Series
