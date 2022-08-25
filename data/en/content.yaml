@@ -17,6 +17,9 @@ BasicInfo:
     - Icon: fas fa-file-pdf
       Href: /img/curriculum-vitae.pdf
       Label: Download My Cv
+    - Icon: fas fa-external-link-alt
+      Href: "https://www.linkedin.com/comm/mynetwork/discovery-see-all?usecase=PEOPLE_FOLLOWS&followMember=joaotnlima"
+      Label: Follow me on Linkedin
       
 Profile: '· More than 8 years of work experience in eCommerce platforms. <br>
 · Interested in defining products and finding what adds value to customers.<br>
