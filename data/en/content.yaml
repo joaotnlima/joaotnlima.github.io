@@ -20,6 +20,9 @@ BasicInfo:
     - Icon: fas fa-external-link-alt
       Href: "https://www.linkedin.com/comm/mynetwork/discovery-see-all?usecase=PEOPLE_FOLLOWS&followMember=joaotnlima"
       Label: Follow me on Linkedin
+    - Icon: fas fa-calendar
+      Href: "https://calendly.com/joaotnlima"
+      Label: Meet me & Coffee Chat
       
 Profile: '· More than 8 years of work experience in eCommerce platforms. <br>
 · Interested in defining products and finding what adds value to customers.<br>
