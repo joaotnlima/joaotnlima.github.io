@@ -5,8 +5,6 @@
         <li class="contact__item">
             {{ if .Info }}
                 <i class="{{ .Icon }}"></i><span>{{ .Info | safeHTML }}</span>
-            {{ else if .Class}}
-                <i class="{{ .Icon }}"></i><a class="{{ .Class | safeURL }}" data-url="{{ .Href | safeURL }}">{{ .Label | safeHTML }}</a>
             {{ else }}
                 <i class="{{ .Icon }}"></i><a target="_blank" href="{{ .Href | safeURL }}">{{ .Label | safeHTML }}</a>
             {{ end }}

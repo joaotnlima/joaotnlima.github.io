@@ -21,9 +21,8 @@ BasicInfo:
       Href: "https://www.linkedin.com/comm/mynetwork/discovery-see-all?usecase=PEOPLE_FOLLOWS&followMember=joaotnlima"
       Label: Follow me on Linkedin
     - Icon: fas fa-calendar
-      Class: calendly-inline-widget
       Href: "https://calendly.com/joaotnlima"
-      Label: Meet me & Coffee Chat
+      Label: Schedule a meet
       
 Profile: '· More than 8 years of work experience in eCommerce platforms. <br>
 · Interested in defining products and finding what adds value to customers.<br>
