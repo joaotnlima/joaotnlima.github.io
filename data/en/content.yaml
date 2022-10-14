@@ -21,6 +21,7 @@ BasicInfo:
       Href: "https://www.linkedin.com/comm/mynetwork/discovery-see-all?usecase=PEOPLE_FOLLOWS&followMember=joaotnlima"
       Label: Follow me on Linkedin
     - Icon: fas fa-calendar
+      Class: calendly-inline-widget
       Href: "https://calendly.com/joaotnlima"
       Label: Meet me & Coffee Chat
       
