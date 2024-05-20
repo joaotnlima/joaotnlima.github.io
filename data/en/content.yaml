@@ -37,11 +37,36 @@ Profile: '· More than 8 years of work experience in eCommerce platforms. <br>
 <br>I’m up for a good challenge, and I count on everyone around me to take it to the next level, always!'
 
 Experience:
+  - Employer: GlovoXL @Mercadao
+    Place: Porto, Portugal
+    Positions:
+      - Title: Head of Product
+        Date: Oct 2023 - Present
+        Details:
+          - Establish an initiative management framework to enhance work quality and communication, ensuring data-centric approaches and increased stakeholder involvement
+          - Spearhead business decisions to boost operational efficiency and productivity
+          - Facilitate cross-departmental collaboration to align product strategies with organizational goals
+          - Serve as a mentor to the entire product team, fostering professional growth and development
+          - Leveraged data analytics to track and measure the success of product initiatives, making informed adjustments as needed
+          - Conducted performance reviews and managed salary assessments, ensuring team recognition and retention
+          - Set product vision to increase growth in business and enroll new partnerships.
+        Badges: ['Marketplace', 'q-commerce', 'Product', 'Scrum', 'Agile']
+      - Title: Senior Product Manager
+        Date: Jan 2023 - Sep 2023
+        Details:
+          - Responsible for crafting the vision for the MVP on the Order Management Service 
+          - Directed cross-functional collaboration to ensure timely and efficient delivery of product features and updates
+          - Implemented agile methodologies to streamline development processes and enhance team productivity
+          - Conducted market research to inform product development and prioritize feature rollouts
+          - Defined and monitored key performance indicators (KPIs) to assess platform performance and user satisfaction, driving continuous improvement initiatives
+          - Orchestrated user acceptance testing (UAT) to validate functionality and ensure a high-quality user experience both internally and also with the partner
+          - Managed stakeholder expectations and provided regular updates on project progress, milestones, and risks
+        Badges: ['Marketplace', 'q-commerce', 'Product', 'Micro-Services', 'Agile']
   - Employer: Dott
     Place: Porto, Portugal
     Positions:
       - Title: Product Owner
-        Date: Dec 2019 - Present
+        Date: Dec 2019 - Dec 2022
         Details:
           - Responsible for 4 development Teams (+25 elements)
           - Work closely with Design Team to define a clear vision of the product and the user journeys that improve the shopping experience, while defining success metrics to measure success.
@@ -180,6 +205,9 @@ Experience:
       Badges: ['Web Development', 'Agile']
 
 Education:
+  - Course: Certified Scrum Advanced-Product Owner (ACSPO)
+    Place: Scrum Alliance
+    Date: Mar 2024
   - Course: Executive Programme, Leadership & Negotiation
     Place: Porto Business School
     Date: Sep 2021 - Nov 2021
