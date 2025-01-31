@@ -58,7 +58,7 @@ jobs:
             exit 1  # Fail the workflow
           fi
       - name: Upload artifact
-        uses: actions/upload-pages-artifact@v2
+        uses: actions/upload-pages-artifact@v3
         with:
           path: ./public
           retention-days: 1  # Ensures temporary storage
