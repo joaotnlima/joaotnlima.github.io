@@ -48,6 +48,15 @@ jobs:
           hugo \
             --minify \
             --baseURL ${{ steps.pages.outputs.base_url }}
+      - name: Debug - Check if public/ exists
+        run: |
+          if [ -d "./public" ]; then
+            echo "✅ public/ directory exists."
+            ls -lah ./public  # List contents
+          else
+            echo "❌ ERROR: public/ directory NOT found!"
+            exit 1  # Fail the workflow
+          fi
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
