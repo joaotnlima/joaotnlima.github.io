@@ -2961,13 +2961,14 @@
                     Prefer a direct conversation? Book a 30-minute intro call to discuss opportunities and see if we're a good fit.
                 </p>
 
-                <button class="btn btn-primary calendly-button" onclick="return Calendly.initPopupWidget({url:&quot;https://calendly.com/joaotnlima&quot;}),!1">
+                <button class="btn btn-primary calendly-button" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/joaotnlima/30min'});return false;">
                     📅 Book a 30-Minute Call
                 </button>
 
                 <p class="form-note">💡 Opens in a popup - quick and easy scheduling</p>
 
-                <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
+                <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
+                <script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
             </div>
         </div>
 
