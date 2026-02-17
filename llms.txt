@@ -150,7 +150,7 @@ SaaS (B2B & B2C), eCommerce, Marketplaces, Quick Commerce, Delivery Platforms, L
 - **Email:** joaotnlima@gmail.com
 - **Phone:** +351 935 566 326
 - **Location:** Porto, Portugal
-- **LinkedIn:** [Profile available via website]
+- **LinkedIn:** https://linkedin.com/in/joaontlima
 - **GitHub Pages:** https://joaotnlima.pt
 - **Website:** https://joaotnlima.github.io
 
