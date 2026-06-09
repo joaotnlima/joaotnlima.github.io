@@ -1,30 +1,30 @@
 <!DOCTYPE html>
-<html lang="en" data-theme="light">
+<html lang="en" data-theme="dark">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="author" content="João Costa">
 <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1">
 <meta name="theme-color" content="#1E40AF">
-<meta name="keywords" content="Head of Product, Director of Product, Product Manager, B2B SaaS, B2C SaaS, Product Strategy, Product Leadership, João Costa, Porto, remote product leader">
-<title>João Costa — Head of Product | B2B & B2C SaaS</title>
-<meta name="description" content="João Costa — Head of Product specializing in B2B & B2C SaaS. 10+ years leading cross-functional teams and shipping high-impact products.">
+<meta name="keywords" content="Product Lead, Head of Product, Director of Product, Senior Product Manager, B2B SaaS, B2C SaaS, Product Strategy, Product Leadership, João Costa, Porto, remote product lead">
+<title>João Costa — Product Lead | B2B & B2C SaaS</title>
+<meta name="description" content="João Costa — Product Lead specializing in B2B & B2C SaaS. 10+ years leading cross-functional teams and shipping high-impact products.">
 <link rel="canonical" href="https://joaotnlima.pt/">
 <!-- Open Graph (LinkedIn, Facebook, Slack, WhatsApp, iMessage) -->
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://joaotnlima.pt/">
 <meta property="og:site_name" content="João Costa">
-<meta property="og:title" content="João Costa — Head of Product | B2B & B2C SaaS">
+<meta property="og:title" content="João Costa — Product Lead | B2B & B2C SaaS">
 <meta property="og:description" content="10+ years leading cross-functional teams and shipping high-impact B2B & B2C SaaS products — from 0-to-1 launches to scaled platforms.">
 <meta property="og:image" content="https://joaotnlima.pt/og-card.png">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
 <meta property="og:image:type" content="image/png">
-<meta property="og:image:alt" content="João Costa — Head of Product, B2B & B2C SaaS">
+<meta property="og:image:alt" content="João Costa — Product Lead, B2B & B2C SaaS">
 <meta property="og:locale" content="en_US">
 <!-- Twitter / X -->
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="João Costa — Head of Product | B2B & B2C SaaS">
+<meta name="twitter:title" content="João Costa — Product Lead | B2B & B2C SaaS">
 <meta name="twitter:description" content="10+ years leading cross-functional teams and shipping high-impact B2B & B2C SaaS products.">
 <meta name="twitter:image" content="https://joaotnlima.pt/og-card.png">
 <link rel="icon" href="favicon.svg" type="image/svg+xml">
@@ -68,10 +68,12 @@
   /* NAV */
   nav{position:sticky;top:0;z-index:50;background:color-mix(in srgb,var(--bg) 82%,transparent);backdrop-filter:blur(12px);border-bottom:1px solid var(--border)}
   nav .wrap{display:flex;align-items:center;justify-content:space-between;height:64px}
-  .brand{display:flex;align-items:center;gap:10px;font:800 16px 'Plus Jakarta Sans'}
-  .brand .dot{width:10px;height:10px;border-radius:3px;background:var(--accent);box-shadow:0 0 0 4px color-mix(in srgb,var(--accent) 25%,transparent)}
-  .brand-logo{height:34px;width:auto;display:block}
-  [data-theme="dark"] .brand-logo{filter:brightness(1.12) saturate(1.05)}
+  .brand{display:flex;align-items:center;gap:11px;text-decoration:none}
+  .brand-mark{width:40px;height:40px;border-radius:11px;display:grid;place-items:center;font:800 17px 'Plus Jakarta Sans';color:#fff;background:linear-gradient(135deg,#3B82F6,#1E40AF);box-shadow:0 4px 12px rgba(37,99,235,.35);flex-shrink:0}
+  .brand-name{display:flex;flex-direction:column;line-height:1.05}
+  .brand-name strong{font:800 16px 'Plus Jakarta Sans';color:var(--text);letter-spacing:-.01em}
+  .brand-name small{font:600 9px 'JetBrains Mono';color:var(--muted);letter-spacing:.2em;text-transform:uppercase;margin-top:3px}
+  @media(max-width:520px){.brand-name small{display:none}}
   .navlinks{display:flex;align-items:center;gap:26px}
   .navlinks a{font-size:14px;color:var(--muted);font-weight:500;transition:color .2s}
   .navlinks a:hover{color:var(--text)}
@@ -174,7 +176,7 @@
   .how-ic{color:var(--text);display:flex}
   .how-ic svg{width:26px;height:26px;stroke:currentColor;stroke-width:2;fill:none;stroke-linecap:round;stroke-linejoin:round}
   .how-card h3{font-size:1.3rem;margin-bottom:8px}
-  .how-card p{color:var(--muted);font-size:14px}
+  .how-card p{color:var(--muted);font-size:15px}
   @media(max-width:760px){.manifesto{grid-template-columns:1fr;gap:28px}.m-portrait{max-width:300px;aspect-ratio:4/5}.how-grid{grid-template-columns:1fr}}
   /* TIMELINE */
   .tl{display:grid;gap:20px}
@@ -187,7 +189,7 @@
   .promo{font-style:italic;color:var(--primary-2);font-size:.92rem;margin:6px 0}
   .about-box{background:var(--surface-2);border:1px solid var(--border);border-left:3px solid var(--primary-2);border-radius:8px;padding:12px 14px;font-size:.9rem;color:var(--muted);margin:10px 0}
   .ach{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-top:14px}
-  .ach-item{display:flex;gap:10px;align-items:flex-start;font-size:14px}
+  .ach-item{display:flex;gap:10px;align-items:flex-start;font-size:15px}
   .ach-item .ic{color:var(--good);margin-top:2px}
   /* CASE STUDIES */
   .cs-grid{display:grid;grid-template-columns:1fr 1fr;gap:24px}
@@ -199,7 +201,9 @@
   .cs-tag{font:600 11px 'JetBrains Mono';padding:4px 10px;border-radius:999px;border:1px solid var(--border);color:var(--muted);white-space:nowrap}
   .cs-block{margin:14px 0}
   .cs-block h4{display:flex;align-items:center;gap:8px;font-size:13px;text-transform:uppercase;letter-spacing:.08em;color:var(--primary-2);margin-bottom:6px}
-  .cs-block p{font-size:14px;color:var(--muted)}
+  .cs-block p{font-size:16px;line-height:1.6;color:var(--muted)}
+  .cs-block h4{font-size:13px}
+  .cs-co p{font-size:13px}
   .cs-metrics{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;margin-top:16px;padding-top:16px;border-top:1px dashed var(--border)}
   .cs-metrics .m{text-align:center}
   .cs-metrics .m .v{font:800 1.5rem 'Plus Jakarta Sans';color:var(--primary)}
@@ -267,10 +271,10 @@
   "name": "João Costa",
   "url": "https://joaotnlima.pt/",
   "image": "https://joaotnlima.pt/photo.jpg",
-  "jobTitle": "Head of Product",
+  "jobTitle": "Product Lead",
   "email": "mailto:joaotnlima@gmail.com",
   "telephone": "+351935566326",
-  "description": "Head of Product with 10+ years leading cross-functional teams and shipping high-impact B2B & B2C SaaS products, from 0-to-1 launches to scaled platforms.",
+  "description": "Product leader with 10+ years leading cross-functional teams and shipping high-impact B2B & B2C SaaS products, from 0-to-1 launches to scaled platforms.",
   "address": { "@type": "PostalAddress", "addressLocality": "Porto", "addressCountry": "PT" },
   "worksFor": { "@type": "Organization", "name": "Lyzer.Tech" },
   "alumniOf": [
@@ -290,7 +294,10 @@
 
 <nav>
   <div class="wrap">
-    <a href="#home" class="brand" aria-label="João Costa — home"><img src="logo-concept5-lettermark.svg" alt="João Costa" class="brand-logo"></a>
+    <a href="#home" class="brand" aria-label="João Costa — home">
+      <span class="brand-mark" aria-hidden="true">JC</span>
+      <span class="brand-name"><strong>João Costa</strong><small>Product Lead</small></span>
+    </a>
     <div class="navlinks" id="nav">
       <a href="#experience">Experience</a>
       <a href="#cases">Case Studies</a>
@@ -309,10 +316,10 @@
   <div class="wrap">
     <div class="hero-grid">
       <div class="reveal">
-        <span class="status"><span class="blip"></span>Open to Head of Product roles · Remote · US time zones</span>
+        <span class="status"><span class="blip"></span>Open to Product Lead roles · Remote · US time zones</span>
         <div class="eyebrow">Product Leader</div>
         <h1>João Costa</h1>
-        <div class="role">Head of Product · B2B &amp; B2C SaaS</div>
+        <div class="role">Product Lead · B2B &amp; B2C SaaS</div>
         <p class="lede">I turn complex business problems into products that move metrics. 10+ years leading cross-functional teams from 0-to-1 launches to scaled platforms.</p>
         <div class="hero-cta">
           <a href="#cases" class="btn btn-primary"><svg class="ic" viewBox="0 0 24 24"><path d="M3 3v18h18M7 14l4-4 3 3 5-6"/></svg>View impact</a>
@@ -358,7 +365,7 @@
       </div>
       <div class="m-body">
         <div class="m-eyebrow">What I'm looking for</div>
-        <h2 class="statement">Head of Product &amp; Director of Product roles at <span class="dim">US-based B2B &amp; B2C SaaS companies</span> where I can drive product strategy, scale high-performing teams, and deliver <span class="amber">transformative experiences.</span></h2>
+        <h2 class="statement">A <span class="amber">Product Lead</span> role at <span class="dim">US-based B2B &amp; B2C SaaS companies</span> where I can drive product strategy, scale high-performing teams, and deliver <span class="amber">transformative experiences.</span></h2>
         <div class="m-chips">
           <span class="chip">B2B / B2C SaaS</span><span class="chip">Remote · US hours</span><span class="chip">Product Strategy</span><span class="chip">Team Leadership</span><span class="chip">Data-Driven</span><span class="chip">High-Growth</span>
         </div>
@@ -432,7 +439,7 @@
       <div class="card tl-item reveal">
         <div class="tl-top"><img class="tl-logo" src="lyzer_tech_logo.webp" alt="Lyzer"><span class="tl-date">Apr 2025 – Present</span><div><h3>Senior Product Manager, In-Store Logistics</h3><div class="tl-co">Lyzer.Tech · Porto, Portugal</div></div></div>
         <div class="about-box"><strong>About Lyzer:</strong> Early-stage Logistics-as-a-Service platform optimizing e-commerce operations and last-mile delivery through automation.</div>
-        <p style="color:var(--muted);font-size:14px">Joined to lead product from the ground up at a venture-stage company — a deliberate move to apply Head-of-Product experience to building a product organization and operational infrastructure from scratch.</p>
+        <p style="color:var(--muted);font-size:15px">Joined to lead product from the ground up at a venture-stage company — a deliberate move to apply Head-of-Product experience to building a product organization and operational infrastructure from scratch.</p>
         <div class="ach">
           <div class="ach-item"><svg class="ic" viewBox="0 0 24 24"><path d="M5 13l4 4L19 7"/></svg><span>Rebuilt the Catalog Module from the ground up — 99% availability and 60% faster processing via parallel ingestion and non-blocking operations across partner catalogs</span></div>
           <div class="ach-item"><svg class="ic" viewBox="0 0 24 24"><path d="M5 13l4 4L19 7"/></svg><span>Designed partner and worker onboarding SOPs to accelerate geographic expansion, cutting time-to-launch for new markets</span></div>
@@ -443,7 +450,7 @@
         <div class="tl-top"><img class="tl-logo" src="glovo.jpeg" alt="Glovo"><span class="tl-date">Jan 2023 – Apr 2025</span><div><h3>Head of Product, GlovoXL</h3><div class="tl-co">Glovo · Porto, Portugal</div></div></div>
         <p class="promo">Promoted from Senior Product Manager → Head of Product (Oct 2023)</p>
         <div class="about-box"><strong>About Glovo:</strong> Leading European on-demand delivery platform (similar to DoorDash/Uber Eats) operating in 25+ countries with 10M+ users. Valued at $2.5B+ with top-tier investors.</div>
-        <p style="color:var(--muted);font-size:14px">Led end-to-end product development for GlovoXL, a B2B SaaS platform empowering grocery retailers to scale e-commerce operations. Managed a product team of 5 and an engineering squad to bootstrap and launch a microservices-based platform with dual mobile apps (iOS/Android).</p>
+        <p style="color:var(--muted);font-size:15px">Led end-to-end product development for GlovoXL, a B2B SaaS platform empowering grocery retailers to scale e-commerce operations. Managed a product team of 5 and an engineering squad to bootstrap and launch a microservices-based platform with dual mobile apps (iOS/Android).</p>
         <div class="ach">
           <div class="ach-item"><svg class="ic" viewBox="0 0 24 24"><path d="M5 13l4 4L19 7"/></svg><span>Led the 0-to-1 launch end-to-end, shipping the MVP in 6 months and taking it live with the launch partner across 2 cities in Poland</span></div>
           <div class="ach-item"><svg class="ic" viewBox="0 0 24 24"><path d="M5 13l4 4L19 7"/></svg><span>Drove 19% order-volume growth within 12 months of launch through product iterations and operational improvements</span></div>
@@ -455,7 +462,7 @@
       <div class="card tl-item reveal">
         <div class="tl-top"><img class="tl-logo" src="dott.jpeg" alt="Dott"><span class="tl-date">Dec 2019 – Oct 2022</span><div><h3>E-commerce Agile Product Owner</h3><div class="tl-co">Dott · Porto, Portugal</div></div></div>
         <div class="about-box"><strong>About Dott:</strong> Portuguese e-commerce marketplace, a joint venture between Worten (Sonae Group) and CTT-Correios de Portugal. <em>Worten acquired the remaining 50% from CTT in May 2022; I remained through the transition until October 2022.</em></div>
-        <p style="color:var(--muted);font-size:14px">Led product strategy for a B2C e-commerce platform, managing 4 development teams (25+ members) and driving cross-functional alignment across Customer Support, Marketing, Engineering, BI, and Data Science.</p>
+        <p style="color:var(--muted);font-size:15px">Led product strategy for a B2C e-commerce platform, managing 4 development teams (25+ members) and driving cross-functional alignment across Customer Support, Marketing, Engineering, BI, and Data Science.</p>
         <div class="ach">
           <div class="ach-item"><svg class="ic" viewBox="0 0 24 24"><path d="M5 13l4 4L19 7"/></svg><span>Integrated 3 payment methods now representing &gt;30% of total transaction volume</span></div>
           <div class="ach-item"><svg class="ic" viewBox="0 0 24 24"><path d="M5 13l4 4L19 7"/></svg><span>Launched digital wallet feature, increasing customer repurchase rate by 4%</span></div>
@@ -466,7 +473,7 @@
       <div class="card tl-item reveal">
         <div class="tl-top"><img class="tl-logo" src="nestle.jpeg" alt="Nestlé"><span class="tl-date">Nov 2017 – Dec 2018</span><div><h3>E-commerce Agile Delivery Manager</h3><div class="tl-co">Nestlé · Barcelona, Spain</div></div></div>
         <div class="about-box"><strong>About Nestlé:</strong> World's largest food and beverage company, $100B+ revenue and 270,000+ employees. Home to Nescafé, KitKat, and Nespresso.</div>
-        <p style="color:var(--muted);font-size:14px">Aligned the global roadmap for the Nescafé Dolce Gusto e-commerce platform, managing 3 vendor teams (40 engineers) across multiple markets.</p>
+        <p style="color:var(--muted);font-size:15px">Aligned the global roadmap for the Nescafé Dolce Gusto e-commerce platform, managing 3 vendor teams (40 engineers) across multiple markets.</p>
         <div class="ach">
           <div class="ach-item"><svg class="ic" viewBox="0 0 24 24"><path d="M5 13l4 4L19 7"/></svg><span>Transformed delivery from 1 release/year to 1 release/month</span></div>
           <div class="ach-item"><svg class="ic" viewBox="0 0 24 24"><path d="M5 13l4 4L19 7"/></svg><span>Led key integrations: mobile app, Salesforce Engage, Marketing Cloud, and loyalty platform</span></div>
@@ -615,7 +622,7 @@
 <!-- CONTACT -->
 <section id="contact">
   <div class="wrap">
-    <div class="sec-head reveal" style="text-align:center"><div class="eyebrow" style="justify-content:center">Let's connect</div><h2>Get in touch</h2><p style="color:var(--muted);max-width:60ch;margin:10px auto 0">Open to Head of Product and Director of Product opportunities in B2B/B2C SaaS. Let's discuss how I can help drive your product vision forward.</p></div>
+    <div class="sec-head reveal" style="text-align:center"><div class="eyebrow" style="justify-content:center">Let's connect</div><h2>Get in touch</h2><p style="color:var(--muted);max-width:60ch;margin:10px auto 0">Open to Product Lead opportunities in B2B/B2C SaaS. Let's discuss how I can help drive your product vision forward.</p></div>
     <div class="contact-grid">
       <div class="card reveal">
         <h3 style="font-size:1.15rem;display:flex;align-items:center;gap:10px;margin-bottom:16px"><span class="ic-badge"><svg class="ic" viewBox="0 0 24 24"><path d="M4 4h16v16H4zM4 6l8 6 8-6"/></svg></span>Send a message</h3>
@@ -630,7 +637,7 @@
       </div>
       <div class="card reveal">
         <h3 style="font-size:1.15rem;display:flex;align-items:center;gap:10px;margin-bottom:16px"><span class="ic-badge"><svg class="ic" viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="17" rx="2"/><path d="M3 9h18M8 2v4M16 2v4"/></svg></span>Schedule a call</h3>
-        <p style="color:var(--muted);font-size:14px;margin-bottom:20px">Prefer a direct conversation? Book a 30-minute intro call to discuss opportunities and see if we're a good fit.</p>
+        <p style="color:var(--muted);font-size:15px;margin-bottom:20px">Prefer a direct conversation? Book a 30-minute intro call to discuss opportunities and see if we're a good fit.</p>
         <button class="btn btn-cta" style="width:100%;justify-content:center" onclick="Calendly.initPopupWidget({url:'https://calendly.com/joaotnlima/30min'});return false;"><svg class="ic" viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="17" rx="2"/><path d="M3 9h18M8 2v4M16 2v4"/></svg>Book a 30-minute call</button>
         <p class="note"><svg class="ic" viewBox="0 0 24 24" style="width:15px;height:15px"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>Opens in a popup — quick and easy</p>
         <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
@@ -647,12 +654,12 @@
 </section>
 
 <footer>
-  <div class="wrap"><p>© 2026 João Costa · Head of Product</p></div>
+  <div class="wrap"><p>© 2026 João Costa · Product Lead</p></div>
 </footer>
 
 <script>
 (function(){
-  var root=document.documentElement, t=localStorage.getItem('theme')||'light';
+  var root=document.documentElement, t=localStorage.getItem('theme')||'dark';
   root.setAttribute('data-theme',t); setIcon(t);
   document.getElementById('theme').addEventListener('click',function(){
     var n=root.getAttribute('data-theme')==='light'?'dark':'light';
